@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98F4C9CE5140A3CFC36B8D53 /* Pods_FbReactionButtons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846091660A1857A83BFAA6F1 /* Pods_FbReactionButtons.framework */; };
+		A37345BE2BEA079200E1E181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37345BD2BEA079200E1E181 /* AppDelegate.swift */; };
+		A37345C02BEA079200E1E181 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37345BF2BEA079200E1E181 /* SceneDelegate.swift */; };
+		A37345C22BEA079200E1E181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37345C12BEA079200E1E181 /* ViewController.swift */; };
+		A37345C52BEA079200E1E181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37345C32BEA079200E1E181 /* Main.storyboard */; };
+		A37345C72BEA079300E1E181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37345C62BEA079300E1E181 /* Assets.xcassets */; };
+		A37345CA2BEA079300E1E181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37345C82BEA079300E1E181 /* LaunchScreen.storyboard */; };
+		A37345D82BEA07D200E1E181 /* angry.json in Resources */ = {isa = PBXBuildFile; fileRef = A37345D22BEA07D200E1E181 /* angry.json */; };
+		A37345D92BEA07D200E1E181 /* love.json in Resources */ = {isa = PBXBuildFile; fileRef = A37345D32BEA07D200E1E181 /* love.json */; };
+		A37345DA2BEA07D200E1E181 /* wow.json in Resources */ = {isa = PBXBuildFile; fileRef = A37345D42BEA07D200E1E181 /* wow.json */; };
+		A37345DB2BEA07D200E1E181 /* like.json in Resources */ = {isa = PBXBuildFile; fileRef = A37345D52BEA07D200E1E181 /* like.json */; };
+		A37345DC2BEA07D200E1E181 /* sad.json in Resources */ = {isa = PBXBuildFile; fileRef = A37345D62BEA07D200E1E181 /* sad.json */; };
+		A37345DD2BEA07D200E1E181 /* laugh.json in Resources */ = {isa = PBXBuildFile; fileRef = A37345D72BEA07D200E1E181 /* laugh.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		846091660A1857A83BFAA6F1 /* Pods_FbReactionButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FbReactionButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37345BA2BEA079200E1E181 /* FbReactionButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FbReactionButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37345BD2BEA079200E1E181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A37345BF2BEA079200E1E181 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A37345C12BEA079200E1E181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A37345C42BEA079200E1E181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A37345C62BEA079300E1E181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37345C92BEA079300E1E181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A37345CB2BEA079300E1E181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37345D22BEA07D200E1E181 /* angry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = angry.json; sourceTree = "<group>"; };
+		A37345D32BEA07D200E1E181 /* love.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = love.json; sourceTree = "<group>"; };
+		A37345D42BEA07D200E1E181 /* wow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wow.json; sourceTree = "<group>"; };
+		A37345D52BEA07D200E1E181 /* like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
+		A37345D62BEA07D200E1E181 /* sad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sad.json; sourceTree = "<group>"; };
+		A37345D72BEA07D200E1E181 /* laugh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = laugh.json; sourceTree = "<group>"; };
+		CC5A5D144B1B449FA643896B /* Pods-FbReactionButtons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbReactionButtons.debug.xcconfig"; path = "Target Support Files/Pods-FbReactionButtons/Pods-FbReactionButtons.debug.xcconfig"; sourceTree = "<group>"; };
+		DE1F38A3451A8783C992E5C2 /* Pods-FbReactionButtons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FbReactionButtons.release.xcconfig"; path = "Target Support Files/Pods-FbReactionButtons/Pods-FbReactionButtons.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37345B72BEA079200E1E181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F4C9CE5140A3CFC36B8D53 /* Pods_FbReactionButtons.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D89B5C31A261ECE9E16FB2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC5A5D144B1B449FA643896B /* Pods-FbReactionButtons.debug.xcconfig */,
+				DE1F38A3451A8783C992E5C2 /* Pods-FbReactionButtons.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5183842B29A67C8C6E86170E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				846091660A1857A83BFAA6F1 /* Pods_FbReactionButtons.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A37345B12BEA079200E1E181 = {
+			isa = PBXGroup;
+			children = (
+				A37345BC2BEA079200E1E181 /* FbReactionButtons */,
+				A37345BB2BEA079200E1E181 /* Products */,
+				1D89B5C31A261ECE9E16FB2E /* Pods */,
+				5183842B29A67C8C6E86170E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A37345BB2BEA079200E1E181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37345BA2BEA079200E1E181 /* FbReactionButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37345BC2BEA079200E1E181 /* FbReactionButtons */ = {
+			isa = PBXGroup;
+			children = (
+				A37345D12BEA07D200E1E181 /* AnimatedJSON */,
+				A37345BD2BEA079200E1E181 /* AppDelegate.swift */,
+				A37345BF2BEA079200E1E181 /* SceneDelegate.swift */,
+				A37345C12BEA079200E1E181 /* ViewController.swift */,
+				A37345C32BEA079200E1E181 /* Main.storyboard */,
+				A37345C62BEA079300E1E181 /* Assets.xcassets */,
+				A37345C82BEA079300E1E181 /* LaunchScreen.storyboard */,
+				A37345CB2BEA079300E1E181 /* Info.plist */,
+			);
+			path = FbReactionButtons;
+			sourceTree = "<group>";
+		};
+		A37345D12BEA07D200E1E181 /* AnimatedJSON */ = {
+			isa = PBXGroup;
+			children = (
+				A37345D22BEA07D200E1E181 /* angry.json */,
+				A37345D32BEA07D200E1E181 /* love.json */,
+				A37345D42BEA07D200E1E181 /* wow.json */,
+				A37345D52BEA07D200E1E181 /* like.json */,
+				A37345D62BEA07D200E1E181 /* sad.json */,
+				A37345D72BEA07D200E1E181 /* laugh.json */,
+			);
+			path = AnimatedJSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A37345B92BEA079200E1E181 /* FbReactionButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37345CE2BEA079300E1E181 /* Build configuration list for PBXNativeTarget "FbReactionButtons" */;
+			buildPhases = (
+				7805C0C44F0B7C4807134DB5 /* [CP] Check Pods Manifest.lock */,
+				A37345B62BEA079200E1E181 /* Sources */,
+				A37345B72BEA079200E1E181 /* Frameworks */,
+				A37345B82BEA079200E1E181 /* Resources */,
+				92AA2A97D50C1D279211062A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FbReactionButtons;
+			productName = FbReactionButtons;
+			productReference = A37345BA2BEA079200E1E181 /* FbReactionButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A37345B22BEA079200E1E181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A37345B92BEA079200E1E181 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A37345B52BEA079200E1E181 /* Build configuration list for PBXProject "FbReactionButtons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A37345B12BEA079200E1E181;
+			productRefGroup = A37345BB2BEA079200E1E181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A37345B92BEA079200E1E181 /* FbReactionButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37345B82BEA079200E1E181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37345DD2BEA07D200E1E181 /* laugh.json in Resources */,
+				A37345DC2BEA07D200E1E181 /* sad.json in Resources */,
+				A37345CA2BEA079300E1E181 /* LaunchScreen.storyboard in Resources */,
+				A37345DB2BEA07D200E1E181 /* like.json in Resources */,
+				A37345C72BEA079300E1E181 /* Assets.xcassets in Resources */,
+				A37345D92BEA07D200E1E181 /* love.json in Resources */,
+				A37345C52BEA079200E1E181 /* Main.storyboard in Resources */,
+				A37345D82BEA07D200E1E181 /* angry.json in Resources */,
+				A37345DA2BEA07D200E1E181 /* wow.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7805C0C44F0B7C4807134DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FbReactionButtons-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AA2A97D50C1D279211062A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FbReactionButtons/Pods-FbReactionButtons-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FbReactionButtons/Pods-FbReactionButtons-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FbReactionButtons/Pods-FbReactionButtons-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A37345B62BEA079200E1E181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37345C22BEA079200E1E181 /* ViewController.swift in Sources */,
+				A37345BE2BEA079200E1E181 /* AppDelegate.swift in Sources */,
+				A37345C02BEA079200E1E181 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A37345C32BEA079200E1E181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37345C42BEA079200E1E181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A37345C82BEA079300E1E181 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37345C92BEA079300E1E181 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A37345CC2BEA079300E1E181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A37345CD2BEA079300E1E181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A37345CF2BEA079300E1E181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5A5D144B1B449FA643896B /* Pods-FbReactionButtons.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33P3VUARHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FbReactionButtons/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartdata.-FbReactionButtons.FbReactionButtons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A37345D02BEA079300E1E181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1F38A3451A8783C992E5C2 /* Pods-FbReactionButtons.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33P3VUARHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FbReactionButtons/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartdata.-FbReactionButtons.FbReactionButtons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A37345B52BEA079200E1E181 /* Build configuration list for PBXProject "FbReactionButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37345CC2BEA079300E1E181 /* Debug */,
+				A37345CD2BEA079300E1E181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37345CE2BEA079300E1E181 /* Build configuration list for PBXNativeTarget "FbReactionButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37345CF2BEA079300E1E181 /* Debug */,
+				A37345D02BEA079300E1E181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A37345B22BEA079200E1E181 /* Project object */;
+}
